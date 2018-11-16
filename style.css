@@ -3,6 +3,11 @@ body {
   color: #ffc4cd;
 }
 
+a {
+  text-decoration: inherit;
+  color: #ffc4cd;
+}
+
 .jumbo h1 {
   position: absolute;
   bottom: 1rem;
@@ -25,7 +30,7 @@ body {
 @media screen and (max-device-width: 601px) {
   .hero {
     position: absolute;
-    top: 15rem;
+    top: 10rem;
   }
 
   .hero .main {
@@ -40,6 +45,21 @@ body {
     font-weight: 600;
     font-style: bold;
     font-size: 44px;
+  }
+}
+
+@media screen and (max-device-width: 586px) {
+  .hero {
+    position: absolute;
+    top: 10rem;
+  }
+  .hero .name {
+    font-size: inherit;
+  }
+
+  .jumbo h1 {
+    right: 0rem;
+    font-size: 25px;
   }
 }
 
