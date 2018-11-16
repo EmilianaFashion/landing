@@ -1,0 +1,9 @@
+body {
+  font-family: 'Monsterrat', sans-serif;
+}
+
+.jumbo h1 {
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+}
