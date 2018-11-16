@@ -1,9 +1,41 @@
 body {
   font-family: 'Monsterrat', sans-serif;
+  color: #ffc4cd;
+}
+
+.hero {
+  display: flex;
+  position: absolute;
+  bottom: 25rem;
+  right: 15rem;
+}
+
+.hero h1 {
+  font-weight: 100;
+  font-size: 44px;
+  /* text-align: center; */
+}
+
+.hero .separator {
+  font-style: italic;
+}
+
+.hero .name {
+  font-weight: 600;
+  text-align: center;
+  font-size: 50px;
 }
 
 .jumbo h1 {
   position: absolute;
+  font-weight: 100;
   bottom: 3rem;
   right: 3rem;
+  font-kerning: 20px;
+}
+
+hr {
+  border-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 5rem;
 }
