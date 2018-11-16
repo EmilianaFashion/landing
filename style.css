@@ -11,9 +11,6 @@ body {
   right: 0.5rem;
 }
 
-.hero {
-}
-
 .hero .main {
   display: block;
   font-weight: 100;
@@ -30,6 +27,13 @@ body {
     position: absolute;
     bottom: 22rem;
     right: 5rem;
+  }
+
+  .hero .main {
+    display: inline;
+  }
+  .hero .separator {
+    display: inline;
   }
 
   .hero h1 {
